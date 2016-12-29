@@ -2,14 +2,14 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 
-smtpserver = 'smtp3.hpe.com'
+smtpserver = 'smtp.163.com'
 
 user = ''
 password = ''
 
-sender = 'wyche_wang@hpe.com'
+sender = ''
 
-receiver = 'yi-chen.wang@hpe.com'
+receiver = ''
 
 subject = 'Python send email test'
 
